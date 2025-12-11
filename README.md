@@ -1,8 +1,8 @@
-# 🚀 Formbricks Data Seeder Solution
+#  Formbricks Data Seeder Solution
 
 This project implements a robust, command-line utility to run a local instance of Formbricks, programmatically generate realistic survey data using a local Large Language Model (LLM), and fill the application entirely via the Formbricks Management and Client APIs.
 
-## ✨ Solution Overview
+##  Solution Overview
 
 The challenge was structured around four distinct commands. The core goal was to demonstrate clean code, effective API usage, and strong debugging skills.
 
@@ -20,7 +20,7 @@ The challenge was structured around four distinct commands. The core goal was to
     * **Client API** (Unauthenticated): Used for submitting the 5 survey responses.
 * **Code Quality:** The logic is defensively written, using isolated modules (`seeder.py`, `generator.py`, etc.) to demonstrate clean, maintainable Python architecture.
 
-## 🛠️ How to Run the Project
+##  How to Run the Project
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ The entire project workflow is executed using these commands:
 
 ---
 
-## 🛑 Important Note on Seeding (The 404 Barrier)
+##  Important Note on Seeding (The 404 Barrier)
 
 During development and final testing, the `formbricks seed` command failed with a **Status Code 404 (Not Found)** on its initial API call.
 
@@ -59,9 +59,10 @@ This action creates the organizational and environmental structure (`environment
 
 ---
 
-## 🤝 Submission Details
+##  Submission Details
 
 * **Submitted By:** Bhaveshpatil44
 * **Repository:** `https://github.com/Bhaveshpatil44/formbricks-seeder`
 * **Shared With:** `nuerona` (GitHub username)
 * **Notification:** `hello@nuerona.io` (email)
+
